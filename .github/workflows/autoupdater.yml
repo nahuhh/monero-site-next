@@ -3,10 +3,10 @@ name: Validate Auto Updater
 on:
   push:
     paths:
-      - "public/downloads/hashes.txt.sig"
+      - "downloads/hashes.txt.sig"
   pull_request:
     paths:
-      - "public/downloads/hashes.txt.sig"
+      - "downloads/hashes.txt.sig"
 jobs:
   validate-auto-updater:
     name: Validate Auto Updater
